@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/13 18:58:34 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/13 21:56:43 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/14 10:29:19 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,12 @@ int Fixed::getRawBits(void) const {
 }
 
 void Fixed::setRawBits(int const raw) {
-    std::cout << "setRawBits member function called" << std::endl;
     _fixedPointVal = raw;
 }
 
 
 Fixed & Fixed::operator=( Fixed const &rhs) {
-    std::cout << "Assignation operator called" << std::endl;
+    std::cout << "Copy assignment operator called" << std::endl;
     this->setRawBits(rhs._fixedPointVal);
     return (*this);
 }
@@ -48,12 +47,11 @@ Fixed & Fixed::operator=( Fixed const &rhs) {
 Fixed::Fixed(const int val) {
     std::cout << "Int constructor called" << std::endl;
     _fixedPointVal = val << _fractBits;
-    this.setRawBits(_fixedPointVal);
+    this->setRawBits(_fixedPointVal);
 }
 Fixed::Fixed(const float val) {
     std::cout << "Float constructor called" << std::endl;
     _fixedPointVal = roundf(val * (1 << _fractBits));
-    this.setRawBits(_fixedPointVal);
 }
 
 float Fixed::toFloat(void) const {
