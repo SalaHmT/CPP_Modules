@@ -6,14 +6,14 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/15 17:51:29 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/15 18:36:48 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/15 18:47:43 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/Point.hpp"
 
-#define CNTR_D "\x1b[31m Exit \033[0m\n"
-#define NOT_DIGIT "\x1b[31m Error: not digit\033[0m\n"
+#define CNTR_D "\x1b[31m :( Must Not Empty relanch . \033[0m\n"
+#define NOT_DIGIT "\x1b[31m :( Error: Enter -> digit\033[0m\n"
 
 static float suf(Point const &p1, Point const &p2, Point const &p3)
 {
