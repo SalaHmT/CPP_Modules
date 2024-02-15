@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/02/15 13:57:15 by shamsate          #+#    #+#              #
-#    Updated: 2024/02/15 18:39:33 by shamsate         ###   ########.fr        #
+#    Created: 2024/02/14 10:32:23 by shamsate          #+#    #+#              #
+#    Updated: 2024/02/14 11:11:14 by shamsate         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME   = Bcp
+NAME   = Fixed
 
 CC     = c++
 
@@ -20,7 +20,7 @@ RM     = rm -rf
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-FILES = main src/Fixed src/Point src/bcp
+FILES = main src/Fixed
 
 SRC		= $(FILES:=.cpp)
 

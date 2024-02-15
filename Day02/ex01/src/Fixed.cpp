@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/13 18:58:34 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/14 10:29:19 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/15 13:22:55 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,3 @@ std::ostream & operator<<(std::ostream & o, Fixed const & rhs) {
     o << rhs.toFloat();
     return o;
 }
-
-

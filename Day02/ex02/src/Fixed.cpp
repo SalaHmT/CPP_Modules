@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/15 13:57:23 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/15 14:13:10 by shamsate         ###   ########.fr       */
+/*   Created: 2024/02/14 10:57:12 by shamsate          #+#    #+#             */
+/*   Updated: 2024/02/14 11:11:32 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,3 +135,5 @@ Fixed &Fixed::max(Fixed const &fixed1, Fixed const &fixed2) {
         return((Fixed&)fixed1);
     return ((Fixed&) fixed2);
 }
+
+
