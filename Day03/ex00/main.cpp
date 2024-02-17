@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 00:00:39 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/17 01:04:37 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/17 01:44:54 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int     main(void)
 {
-    ClapTrap    stive("stive");
-    ClapTrap    amanda("amanda");
+    ClapTrap    stive("Salah");
+    ClapTrap    amanda("Ht");
 
     stive.setDamage(4);
     stive.attack(amanda.getName());
