@@ -5,26 +5,20 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/17 00:00:39 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/17 12:49:20 by shamsate         ###   ########.fr       */
+/*   Created: 2024/02/17 16:05:14 by shamsate          #+#    #+#             */
+/*   Updated: 2024/02/17 16:30:58 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "include/DiamondTrap.hpp"
+#include "include/ScavTrap.hpp"
+#include "include/FragTrap.hpp"
 #include "include/ClapTrap.hpp"
 
 int     main(void)
 {
-    ClapTrap    stive("Salah");
-    ClapTrap    amanda("raven");
-
-    stive.setDamage(4);
-    stive.attack(amanda.getName());
-    stive.attack(amanda.getName());
-    amanda.takeDamage(1);
-    amanda.beRepaired(100);
-    amanda.attack(stive.getName());
-    stive.takeDamage(1);
-    stive.getStatus();
-    amanda.getStatus();
+    DiamondTrap  raven("raven");
+    raven.attack("hamza");
+    raven.whoAmI();
     return (0);
 }
