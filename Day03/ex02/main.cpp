@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 15:37:44 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/17 15:47:35 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/17 17:18:44 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,4 @@ int     main(void)
     hamza.highFivesGuys();
     salah.getStatus();
     raven.getStatus();
-    return (0);
 }

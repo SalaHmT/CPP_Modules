@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 00:00:39 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/17 12:49:20 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/17 17:20:08 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,16 @@
 
 int     main(void)
 {
-    ClapTrap    stive("Salah");
-    ClapTrap    amanda("raven");
+    ClapTrap    salah("Salah");
+    ClapTrap    raven("raven");
 
-    stive.setDamage(4);
-    stive.attack(amanda.getName());
-    stive.attack(amanda.getName());
-    amanda.takeDamage(1);
-    amanda.beRepaired(100);
-    amanda.attack(stive.getName());
-    stive.takeDamage(1);
-    stive.getStatus();
-    amanda.getStatus();
-    return (0);
+    salah.setDamage(4);
+    salah.attack(raven.getName());
+    salah.attack(raven.getName());
+    raven.takeDamage(1);
+    raven.beRepaired(100);
+    raven.attack(salah.getName());
+    salah.takeDamage(1);
+    salah.getStatus();
+    raven.getStatus();
 }

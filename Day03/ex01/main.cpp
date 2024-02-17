@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 13:05:50 by shamsate          #+#    #+#             */
-/*   Updated: 2024/02/17 13:18:13 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/02/17 17:17:53 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,4 @@ int     main(void)
     raven.guardGate();
     salah.getStatus();
     raven.getStatus();
-    return (0);
 }
