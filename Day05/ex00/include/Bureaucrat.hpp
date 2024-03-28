@@ -6,7 +6,7 @@
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 22:16:46 by shamsate          #+#    #+#             */
-/*   Updated: 2024/03/28 22:25:34 by shamsate         ###   ########.fr       */
+/*   Updated: 2024/03/28 22:32:03 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ public:
 
 	void incrementBGrade();
 	void decrementBGrade();
-	void signForm(For);
 
 	class GradeTooHighException : public std::exception
 	{
