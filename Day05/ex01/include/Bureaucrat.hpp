@@ -5,16 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: shamsate < shamsate@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/21 22:16:46 by shamsate          #+#    #+#             */
-/*   Updated: 2024/03/28 22:25:34 by shamsate         ###   ########.fr       */
+/*   Created: 2024/03/28 22:21:47 by shamsate          #+#    #+#             */
+/*   Updated: 2024/03/28 22:26:46 by shamsate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #ifndef BUREAUCRAT_HPP
 # define BUREAUCRAT_HPP
+#include "Form.hpp"
 # include <iostream>
 # include <exception>
 
+class Form;
 class Bureaucrat{
 public:
 	Bureaucrat();
@@ -28,7 +31,7 @@ public:
 
 	void incrementBGrade();
 	void decrementBGrade();
-	void signForm(For);
+	void signForm(Form &form);
 
 	class GradeTooHighException : public std::exception
 	{
@@ -49,4 +52,3 @@ private:
 };
 std::ostream &operator<<(std::ostream &output, const Bureaucrat &_Bureaucrat);
 #endif
-
